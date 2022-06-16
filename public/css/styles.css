@@ -367,3 +367,28 @@ main.main {
     width: 30px;
     margin-left: 3px;
 }
+
+.video-button {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 2px 4px;
+}
+
+.delete {
+  background-color: rgba(234, 51, 35, 1);
+}
+
+.edit {
+  background-color: lightyellow;
+}
+
+#video-form {
+  display: flex;
+}
+
+#video-form #video-input {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 2px;
+  align-items: center;
+}

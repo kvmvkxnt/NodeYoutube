@@ -1,0 +1,121 @@
+Date ||| Status ||| Url ||| Name ||| Message
+
+Sat Jun 11 2022 15:45:43 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /register ||| InternalServerError ||| Cannot access 'user' before initialization
+Sat Jun 11 2022 15:46:52 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /register ||| InternalServerError ||| Cannot read properties of undefined (reading 'avatar')
+Sun Jun 12 2022 14:59:00 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /users ||| InternalServerError ||| req is not defined
+Sun Jun 12 2022 15:28:35 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /users/3 ||| InternalServerError ||| Cannot convert undefined or null to object
+Mon Jun 13 2022 00:43:11 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /videos ||| InternalServerError ||| read is not defined
+Mon Jun 13 2022 00:50:27 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /videos ||| InternalServerError ||| Cannot read properties of undefined (reading 'username')
+Mon Jun 13 2022 00:52:39 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /videos ||| InternalServerError ||| path is not defined
+Mon Jun 13 2022 00:56:08 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /videos ||| InternalServerError ||| Cannot read properties of null (reading 'video')
+Mon Jun 13 2022 00:59:59 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /videos ||| InternalServerError ||| Cannot read properties of null (reading 'video')
+Tue Jun 14 2022 02:58:28 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /videos?userId1 ||| InternalServerError ||| Cannot convert undefined or null to object
+Tue Jun 14 2022 03:02:58 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /videos?query=some ||| InternalServerError ||| Cannot convert undefined or null to object
+Tue Jun 14 2022 03:53:59 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /admin/videos/3 ||| InternalServerError ||| Cannot convert undefined or null to object
+Tue Jun 14 2022 03:55:49 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /admin/videos/2 ||| InternalServerError ||| Cannot convert undefined or null to object
+Tue Jun 14 2022 03:56:27 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /admin/videos/1 ||| InternalServerError ||| Cannot convert undefined or null to object
+Tue Jun 14 2022 04:00:04 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /admin/videos/14 ||| InternalServerError ||| Cannot convert undefined or null to object
+Tue Jun 14 2022 04:54:34 GMT+0500 (Uzbekistan Standard Time) ||| 400 ||| /login ||| SyntaxError ||| Unexpected token o in JSON at position 1
+Tue Jun 14 2022 04:54:38 GMT+0500 (Uzbekistan Standard Time) ||| 400 ||| /login ||| SyntaxError ||| Unexpected token o in JSON at position 1
+Tue Jun 14 2022 04:54:42 GMT+0500 (Uzbekistan Standard Time) ||| 400 ||| /login ||| SyntaxError ||| Unexpected token o in JSON at position 1
+Tue Jun 14 2022 04:54:42 GMT+0500 (Uzbekistan Standard Time) ||| 400 ||| /login ||| SyntaxError ||| Unexpected token o in JSON at position 1
+Tue Jun 14 2022 04:54:42 GMT+0500 (Uzbekistan Standard Time) ||| 400 ||| /login ||| SyntaxError ||| Unexpected token o in JSON at position 1
+Tue Jun 14 2022 04:55:31 GMT+0500 (Uzbekistan Standard Time) ||| 400 ||| /login ||| SyntaxError ||| Unexpected token o in JSON at position 1
+Tue Jun 14 2022 05:06:47 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Tue Jun 14 2022 05:07:43 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Tue Jun 14 2022 05:09:51 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Tue Jun 14 2022 18:38:23 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Tue Jun 14 2022 18:39:27 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| ValidationError ||| "password" length must be at least 8 characters long
+Tue Jun 14 2022 18:41:17 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| ValidationError ||| "password" length must be at least 8 characters long
+Tue Jun 14 2022 18:41:33 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Tue Jun 14 2022 18:42:18 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Tue Jun 14 2022 18:47:42 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Tue Jun 14 2022 18:49:06 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Tue Jun 14 2022 18:49:07 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Tue Jun 14 2022 18:49:23 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Tue Jun 14 2022 18:49:30 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Tue Jun 14 2022 18:50:59 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Tue Jun 14 2022 18:51:20 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Tue Jun 14 2022 18:52:07 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Tue Jun 14 2022 19:01:35 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Thu Jun 16 2022 00:47:00 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Thu Jun 16 2022 00:49:00 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Thu Jun 16 2022 00:50:08 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Thu Jun 16 2022 00:50:34 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Thu Jun 16 2022 00:53:27 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Thu Jun 16 2022 00:56:10 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Thu Jun 16 2022 00:56:53 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Thu Jun 16 2022 00:57:08 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Thu Jun 16 2022 00:57:21 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Thu Jun 16 2022 00:57:32 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Thu Jun 16 2022 00:58:21 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Thu Jun 16 2022 00:59:27 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Thu Jun 16 2022 00:59:59 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Thu Jun 16 2022 01:00:02 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Thu Jun 16 2022 01:01:14 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Thu Jun 16 2022 01:01:21 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Thu Jun 16 2022 01:01:32 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Thu Jun 16 2022 01:01:51 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Thu Jun 16 2022 01:01:58 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Thu Jun 16 2022 01:16:12 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Thu Jun 16 2022 01:16:56 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Thu Jun 16 2022 01:17:48 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /login ||| InternalServerError ||| Cannot set headers after they are sent to the client
+Thu Jun 16 2022 01:19:14 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Thu Jun 16 2022 01:19:19 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /login ||| InternalServerError ||| Cannot set headers after they are sent to the client
+Thu Jun 16 2022 01:19:34 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /login ||| InternalServerError ||| Cannot set headers after they are sent to the client
+Thu Jun 16 2022 01:20:17 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /login ||| InternalServerError ||| Cannot set headers after they are sent to the client
+Thu Jun 16 2022 01:20:26 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /login ||| InternalServerError ||| Cannot set headers after they are sent to the client
+Thu Jun 16 2022 02:15:09 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /videos ||| Error ||| Can't set headers after they are sent.
+Thu Jun 16 2022 13:35:04 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /download/1655158163930_somethingnew.mov ||| InternalServerError ||| The "path" argument must be of type string. Received undefined
+Thu Jun 16 2022 13:36:35 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /download/1655158163930_somethingnew.mov ||| InternalServerError ||| The "path" argument must be of type string. Received undefined
+Thu Jun 16 2022 13:42:11 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /download/1655158163930_somethingnew.mov ||| InternalServerError ||| The "path" argument must be of type string. Received undefined
+Thu Jun 16 2022 13:42:55 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /download/1655158163930_somethingnew.mov ||| InternalServerError ||| The "path" argument must be of type string. Received undefined
+Thu Jun 16 2022 13:43:35 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /download/1655158163930_somethingnew.mov ||| InternalServerError ||| The "path" argument must be of type string. Received undefined
+Thu Jun 16 2022 13:43:56 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /download/1655158163930_somethingnew.mov ||| InternalServerError ||| The "path" argument must be of type string. Received undefined
+Thu Jun 16 2022 13:44:11 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /download/1655158163930_somethingnew.mov ||| InternalServerError ||| The "path" argument must be of type string. Received undefined
+Thu Jun 16 2022 14:59:37 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Thu Jun 16 2022 15:00:26 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Thu Jun 16 2022 15:00:26 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Thu Jun 16 2022 15:00:27 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Thu Jun 16 2022 15:17:55 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Thu Jun 16 2022 15:18:22 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /register ||| InternalServerError ||| Cannot read properties of undefined (reading 'userId')
+Thu Jun 16 2022 15:20:15 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Thu Jun 16 2022 15:20:43 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /register ||| InternalServerError ||| Cannot read properties of undefined (reading 'userId')
+Thu Jun 16 2022 15:21:54 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /register ||| InternalServerError ||| Cannot read properties of undefined (reading 'userId')
+Thu Jun 16 2022 15:22:19 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /register ||| InternalServerError ||| Cannot read properties of undefined (reading 'userId')
+Thu Jun 16 2022 15:23:29 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /register ||| InternalServerError ||| Cannot read properties of undefined (reading 'userId')
+Thu Jun 16 2022 15:26:08 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /register ||| InternalServerError ||| Cannot read properties of undefined (reading 'userId')
+Thu Jun 16 2022 15:27:14 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /register ||| AuthorizationError ||| this user already exists
+Thu Jun 16 2022 15:31:42 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Thu Jun 16 2022 15:36:04 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Thu Jun 16 2022 16:05:26 GMT+0500 (Uzbekistan Standard Time) ||| 403 ||| /admin ||| ForbiddenError ||| token required
+Thu Jun 16 2022 16:05:32 GMT+0500 (Uzbekistan Standard Time) ||| 403 ||| /admin ||| ForbiddenError ||| token required
+Thu Jun 16 2022 16:19:44 GMT+0500 (Uzbekistan Standard Time) ||| 403 ||| /admin ||| ForbiddenError ||| token required
+Thu Jun 16 2022 16:24:49 GMT+0500 (Uzbekistan Standard Time) ||| 403 ||| /admin ||| ForbiddenError ||| Cannot read properties of undefined (reading 'token')
+Thu Jun 16 2022 16:25:42 GMT+0500 (Uzbekistan Standard Time) ||| 403 ||| /admin ||| ForbiddenError ||| Cannot read properties of undefined (reading 'token')
+Thu Jun 16 2022 16:26:04 GMT+0500 (Uzbekistan Standard Time) ||| 403 ||| /admin ||| ForbiddenError ||| Cannot read properties of undefined (reading 'token')
+Thu Jun 16 2022 16:26:30 GMT+0500 (Uzbekistan Standard Time) ||| 403 ||| /admin ||| ForbiddenError ||| token required
+Thu Jun 16 2022 16:26:51 GMT+0500 (Uzbekistan Standard Time) ||| 403 ||| /admin ||| ForbiddenError ||| token required
+Thu Jun 16 2022 16:26:55 GMT+0500 (Uzbekistan Standard Time) ||| 403 ||| /admin ||| ForbiddenError ||| token required
+Thu Jun 16 2022 16:27:22 GMT+0500 (Uzbekistan Standard Time) ||| 403 ||| /admin ||| ForbiddenError ||| token required
+Thu Jun 16 2022 16:30:08 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Thu Jun 16 2022 16:45:53 GMT+0500 (Uzbekistan Standard Time) ||| 403 ||| /admin/videos ||| ForbiddenError ||| token required
+Thu Jun 16 2022 16:46:39 GMT+0500 (Uzbekistan Standard Time) ||| 403 ||| /admin/videos ||| ForbiddenError ||| token required
+Thu Jun 16 2022 16:47:26 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /admin/videos ||| InternalServerError ||| ValidationError is not defined
+Thu Jun 16 2022 16:48:04 GMT+0500 (Uzbekistan Standard Time) ||| 400 ||| /admin/videos ||| ValidationError ||| video required
+Thu Jun 16 2022 16:48:11 GMT+0500 (Uzbekistan Standard Time) ||| 400 ||| /admin/videos ||| ValidationError ||| video required
+Thu Jun 16 2022 16:49:16 GMT+0500 (Uzbekistan Standard Time) ||| 400 ||| /admin/videos ||| ValidationError ||| video required
+Thu Jun 16 2022 16:50:31 GMT+0500 (Uzbekistan Standard Time) ||| 400 ||| /admin/videos ||| ValidationError ||| video required
+Thu Jun 16 2022 16:55:13 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Thu Jun 16 2022 16:57:40 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Thu Jun 16 2022 17:42:51 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Thu Jun 16 2022 19:01:59 GMT+0500 (Uzbekistan Standard Time) ||| 401 ||| /login ||| AuthorizationError ||| wrong username or password
+Thu Jun 16 2022 19:34:11 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /admin/videos/3 ||| InternalServerError ||| Cannot read properties of undefined (reading 'length')
+Thu Jun 16 2022 19:35:50 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /admin/videos/3 ||| InternalServerError ||| Cannot read properties of undefined (reading 'length')
+Thu Jun 16 2022 19:39:33 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /admin/videos/3 ||| InternalServerError ||| Cannot read properties of undefined (reading 'length')
+Thu Jun 16 2022 19:41:33 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /admin/videos/3 ||| InternalServerError ||| Cannot read properties of undefined (reading 'length')
+Thu Jun 16 2022 19:42:44 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /admin/videos/3 ||| InternalServerError ||| Cannot read properties of undefined (reading 'length')
+Thu Jun 16 2022 19:43:11 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /admin/videos/3 ||| InternalServerError ||| Cannot read properties of undefined (reading 'length')
+Thu Jun 16 2022 19:45:44 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| /admin/videos/3 ||| InternalServerError ||| Cannot read properties of undefined (reading 'length')
+Thu Jun 16 2022 19:49:13 GMT+0500 (Uzbekistan Standard Time) ||| 403 ||| /admin/videos/3 ||| ForbiddenError ||| new title is equal to previous title
+Thu Jun 16 2022 19:49:30 GMT+0500 (Uzbekistan Standard Time) ||| 403 ||| /admin/videos/3 ||| ForbiddenError ||| new title is equal to previous title
